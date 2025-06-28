@@ -1,0 +1,36 @@
+---
+title: "Why and How to Write a Blog as an Experimental Biologist/Bioinformatician?"
+author: "Josef Bryja"
+date: "2025-06-27"
+categories: [news, tutorial]
+---
+
+# Why?
+
+## My Short Backstory
+
+Hello, my name is Josef and this is first post in my blog "The Weddington Code". I will try to explain why I started this project and how I did that. Let me start with my story. I was always interested in animals and nature in general. When I got accepted to Masaryk University in Brno, I started to study experimental and molecular biology. During my master studies I shifted my focus more towards Immunology and cell-ECM interactions. However, I felt that this is not I really want. After finishing my master degree, I started my Ph.D. in developmental biology. I have to say, that this field feels right for me. However, there was one small catch -- I did not have any knowledge about animal development.
+
+In addition to that, I am very interested in bioinformatics and looking for patterns in various types of data. For some time I was the only "bioinformatician" in my new lab, so the developmental biology was not the only thing I needed to get deeper in.
+
+
+## So Why to Bother with a Blog?
+
+During the last year, since I started my Ph.D. studies, I had to (and will have to) learn many new things. I found out that the most effective way to understand some topic is to explain it to other people. However, these other people does not always have time or are not simply interested in my oversimplified explanations of complex phenomena or algorithms. And here comes the blog writing. I do not force anyone to read this. I am just taking notes to understand things better or keep track of ideas that I find interesting. And who knows, maybe someone will find it useful or I will get some feedback so I can improve my skills or gain more knowledge.
+
+
+# How?
+
+## Concept
+
+It is very easy to say: "I will just write a blog, you know.". Well, it is not that simple. You need to do it somehow. And I really like the idea of open-source software. Which kinda limits the options. Anyway, there is quite a number of alternatives to commercial software. So my idea is to choose something that will help me even in other parts of my work. 
+
+
+## Quarto
+
+Do you know RMarkdown? Quarto is build on that and it is basically RMarkdown on steroids. It is very easy to write multi-language scripts or create various types of documents from reports, presentations, websites or books. To be completely honest, I was a bit lazy to learn that because RMarkdown was always sufficient for my purposes. This is the reason why I choose Quarto for my blog. To learn something new. The basic syntax is still basically pure markdown so is is really to easy to just jump in. I mentioned above, Quarto supports many types of output documents and there is also one dedicated to blogs. The Quarto team made it very simple to use this template and they also provide pretty straight forward tutorial. What I like about this is that you can use some predefined themes or you can create your own. I guess that it is better to use some of these themes in the beginning but I would like to try creating my own theme in future.
+
+
+## GitHub Pages
+
+Quarto is amazing for creating these markdown based documents and rendering them. However, when you are writing a blog, you also want to publish it. 
