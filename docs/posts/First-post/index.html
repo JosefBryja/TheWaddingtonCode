@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Josef Bryja">
-<meta name="dcterms.date" content="2025-06-27">
+<meta name="dcterms.date" content="2025-06-29">
 
 <title>Why and How to Write a Blog as an Experimental Biologist/Bioinformatician? – The Waddington Code</title>
 <style>
@@ -171,7 +171,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">June 27, 2025</p>
+        <p class="date">June 29, 2025</p>
       </div>
     </div>
     
@@ -194,32 +194,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Why?</h1>
 <section id="my-short-backstory" class="level2">
 <h2 class="anchored" data-anchor-id="my-short-backstory">My Short Backstory</h2>
-<p>Hello, my name is Josef and this is first post in my blog “The Waddington Code”. I will try to explain why I started this project and how I did that. Let me start with my story. I was always interested in animals and nature in general. When I got accepted to Masaryk University in Brno, I started to study experimental and molecular biology. During my master studies I shifted my focus more towards Immunology and cell-ECM interactions. However, I felt that this is not I really want. After finishing my master degree, I started my Ph.D.&nbsp;in developmental biology. I have to say, that this field feels right for me. However, there was one small catch – I did not have any knowledge about animal development.</p>
-<p>In addition to that, I am very interested in bioinformatics and looking for patterns in various types of data. For some time I was the only “bioinformatician” in my new lab, so the developmental biology was not the only thing I needed to get deeper in.</p>
+<p>Hello, my name is Josef and this is the first post on my blog “The Waddington Code” (I will explain the name in some other post). I will try to explain why I started this project and how I did it. Let me start with my story. I was always interested in animals and nature in general. When I got accepted to Masaryk University in Brno, I started studying experimental and molecular biology. During my master’s studies, I shifted my focus more towards immunology and cell-ECM interactions. However, I felt that this wasn’t what I really wanted. After finishing my master’s degree, I started my Ph.D.&nbsp;in developmental biology. I have to say that this field feels right for me. However, there was one small catch – I did not have any knowledge about animal development.</p>
+<p>In addition to that, I am very interested in bioinformatics and looking for patterns in various types of data. For some time I was the only “bioinformatician” in my new lab, so developmental biology was not the only thing I needed to get deeper into.</p>
 </section>
 <section id="so-why-to-bother-with-a-blog" class="level2">
 <h2 class="anchored" data-anchor-id="so-why-to-bother-with-a-blog">So Why to Bother with a Blog?</h2>
-<p>During the last year, since I started my Ph.D.&nbsp;studies, I had to (and will have to) learn many new things. I found out that the most effective way to understand some topic is to explain it to other people. However, these other people does not always have time or are not simply interested in my oversimplified explanations of complex phenomena or algorithms. And here comes the blog writing. I do not force anyone to read this. I am just taking notes to understand things better or keep track of ideas that I find interesting. And who knows, maybe someone will find it useful or I will get some feedback so I can improve my skills or gain more knowledge.</p>
+<p>During the last year, since I started my Ph.D.&nbsp;studies, I had to (and will have to) learn many new things. I found out that the most effective way to understand a topic is to explain it to other people. However, these other people do not always have time or are simply not interested in my oversimplified explanations of complex phenomena or algorithms. And here comes blog writing. I do not force anyone to read this. I am just taking notes to understand things better or keep track of ideas that I find interesting. And who knows, maybe someone will find it useful or I will get some feedback so I can improve my skills or gain more knowledge.</p>
 </section>
 </section>
 <section id="how" class="level1">
 <h1>How?</h1>
 <section id="concept" class="level2">
 <h2 class="anchored" data-anchor-id="concept">Concept</h2>
-<p>It is very easy to say: “I will just write a blog, you know.”. Well, it is not that simple. You need to do it somehow. And I really like the idea of open-source software. Which kinda limits the options. Anyway, there is quite a number of alternatives to commercial software. So my idea is to choose something that will help me even in other parts of my work.</p>
+<p>It is very easy to say: “I will just write a blog, you know.” Well, it is not that simple. You need to do it somehow. And I really like the idea of open-source software, which kind of limits the options. Anyway, there are quite a number of alternatives to commercial software. So my idea is to choose something that will help me even in other parts of my work.</p>
 </section>
 <section id="quarto" class="level2">
 <h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-<p>Do you know RMarkdown? Quarto is build on that and it is basically RMarkdown on steroids. It is very easy to write multi-language scripts or create various types of documents from reports, presentations, websites or books. What is a small difference from standard RMarkdown is that you need to install Quarto as a separate software. But trust me, it is wort it. To be completely honest, I was a bit lazy to learn Quarto, because RMarkdown was always sufficient for my purposes. This is the reason why I choose Quarto for my blog. To learn something new. The basic syntax is still basically pure markdown so is is really to easy to just jump in. I mentioned above, Quarto supports many types of output documents and there is also one dedicated to blogs. The Quarto team made it very simple to use this template and they also provide pretty straight forward tutorial. Basically all you need to do is:</p>
+<p>Do you know RMarkdown? Quarto is built on that and it is basically RMarkdown on steroids. It is very easy to write multi-language scripts or create various types of documents from reports, presentations, websites, or books. What is a small difference from standard RMarkdown is that you need to install Quarto as separate software. But trust me, it is worth it. To be completely honest, I was a bit lazy to learn Quarto because RMarkdown was always sufficient for my purposes. This is the reason why I chose Quarto for my blog: to learn something new. The basic syntax is still basically pure markdown, so it is really easy to just jump in. I mentioned above that Quarto supports many types of output documents, and there is also one dedicated to blogs. The Quarto team made it very simple to use this template and they also provide a pretty straightforward tutorial. Basically, all you need to do is:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> create project blog thewaddingtoncode</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>And you are good to go. The rest is on <a href="https://quarto.org/docs/websites/website-blog.html">Quarto website</a>.</p>
 </section>
 <section id="github-pages" class="level2">
 <h2 class="anchored" data-anchor-id="github-pages">GitHub Pages</h2>
-<p>Quarto is amazing for creating these markdown based documents and rendering them. However, when you are writing a blog, you also want to publish it. Quarto actually offers so called Quarto Pub which you can use to publish your blog or website. However, I decided that I will use GitHub Pages for this purspose, since I always wanted to try it. There are several ways how to do it. I used quite simple approach. First, I created a git repository that is linked to GitHub. After creating GitHub repository and linking it with my local git repository, I went back to the terminal. At this point, you need to check, that your <code>_quarto.qmd</code> file contains following lines:</p>
+<p>Quarto is amazing for creating these markdown-based documents and rendering them. However, when you are writing a blog, you also want to publish it. Quarto actually offers so-called Quarto Pub, which you can use to publish your blog or website. However, I decided that I would use GitHub Pages for this purpose since I always wanted to try it. There are several ways how to do it. I used a quite simple approach. First, I created a git repository that is linked to GitHub. After creating a GitHub repository and linking it with my local git repository, I went back to the terminal. At this point, you need to check that your <code>_quarto.yml</code> file contains the following lines:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="an">project:</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  type: website</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  output-dir: docs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Once this was done, I could run following command and push everything on github. This create <code>docs</code> file and render the website.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The last thing I did to publish this post (and the whole blog) was to go to my GitHub repository settings → Pages and set the deployment from a branch like this:</p>
+<p><img src="GitHubPages.png" class="img-fluid"></p>
+<p>With this, my blog was ready to start.</p>
 
 
 </section>
