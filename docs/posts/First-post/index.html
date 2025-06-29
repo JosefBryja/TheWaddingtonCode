@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -160,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Why?</h1>
 <section id="my-short-backstory" class="level2">
 <h2 class="anchored" data-anchor-id="my-short-backstory">My Short Backstory</h2>
-<p>Hello, my name is Josef and this is first post in my blog “The Weddington Code”. I will try to explain why I started this project and how I did that. Let me start with my story. I was always interested in animals and nature in general. When I got accepted to Masaryk University in Brno, I started to study experimental and molecular biology. During my master studies I shifted my focus more towards Immunology and cell-ECM interactions. However, I felt that this is not I really want. After finishing my master degree, I started my Ph.D.&nbsp;in developmental biology. I have to say, that this field feels right for me. However, there was one small catch – I did not have any knowledge about animal development.</p>
+<p>Hello, my name is Josef and this is first post in my blog “The Waddington Code”. I will try to explain why I started this project and how I did that. Let me start with my story. I was always interested in animals and nature in general. When I got accepted to Masaryk University in Brno, I started to study experimental and molecular biology. During my master studies I shifted my focus more towards Immunology and cell-ECM interactions. However, I felt that this is not I really want. After finishing my master degree, I started my Ph.D.&nbsp;in developmental biology. I have to say, that this field feels right for me. However, there was one small catch – I did not have any knowledge about animal development.</p>
 <p>In addition to that, I am very interested in bioinformatics and looking for patterns in various types of data. For some time I was the only “bioinformatician” in my new lab, so the developmental biology was not the only thing I needed to get deeper in.</p>
 </section>
 <section id="so-why-to-bother-with-a-blog" class="level2">
@@ -177,12 +211,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="quarto" class="level2">
 <h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
 <p>Do you know RMarkdown? Quarto is build on that and it is basically RMarkdown on steroids. It is very easy to write multi-language scripts or create various types of documents from reports, presentations, websites or books. What is a small difference from standard RMarkdown is that you need to install Quarto as a separate software. But trust me, it is wort it. To be completely honest, I was a bit lazy to learn Quarto, because RMarkdown was always sufficient for my purposes. This is the reason why I choose Quarto for my blog. To learn something new. The basic syntax is still basically pure markdown so is is really to easy to just jump in. I mentioned above, Quarto supports many types of output documents and there is also one dedicated to blogs. The Quarto team made it very simple to use this template and they also provide pretty straight forward tutorial. Basically all you need to do is:</p>
-<pre class="{bash}"><code>quarto create project blog theweddingtoncode</code></pre>
-<p>And you are good to go. All the rest is on Quarto website (https://quarto.org/docs/websites/website-blog.html).</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> create project blog thewaddingtoncode</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>And you are good to go. The rest is on <a href="https://quarto.org/docs/websites/website-blog.html">Quarto website</a>.</p>
 </section>
 <section id="github-pages" class="level2">
 <h2 class="anchored" data-anchor-id="github-pages">GitHub Pages</h2>
-<p>Quarto is amazing for creating these markdown based documents and rendering them. However, when you are writing a blog, you also want to publish it. Quarto actually offers so called Quarto Pub which you can use to publish your blog or website. However, I decided that I will use GitHub Pages for this puspose, since I always wanted to try it.</p>
+<p>Quarto is amazing for creating these markdown based documents and rendering them. However, when you are writing a blog, you also want to publish it. Quarto actually offers so called Quarto Pub which you can use to publish your blog or website. However, I decided that I will use GitHub Pages for this purspose, since I always wanted to try it. There are several ways how to do it. I used quite simple approach. First, I created a git repository that is linked to GitHub. After creating GitHub repository and linking it with my local git repository, I went back to the terminal. At this point, you need to check, that your <code>_quarto.qmd</code> file contains following lines:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="an">project:</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  type: website</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  output-dir: docs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
