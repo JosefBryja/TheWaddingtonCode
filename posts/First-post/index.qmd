@@ -33,9 +33,15 @@ Do you know RMarkdown? Quarto is build on that and it is basically RMarkdown on 
 ```{bash} 
 quarto create project blog thewaddingtoncode
 ```
-And you are good to go. All the rest is on [Quarto website](https://quarto.org/docs/websites/website-blog.html).
+And you are good to go. The rest is on [Quarto website](https://quarto.org/docs/websites/website-blog.html).
 
 
 ## GitHub Pages
 
-Quarto is amazing for creating these markdown based documents and rendering them. However, when you are writing a blog, you also want to publish it. Quarto actually offers so called Quarto Pub which you can use to publish your blog or website. However, I decided that I will use GitHub Pages for this puspose, since I always wanted to try it. 
+Quarto is amazing for creating these markdown based documents and rendering them. However, when you are writing a blog, you also want to publish it. Quarto actually offers so called Quarto Pub which you can use to publish your blog or website. However, I decided that I will use GitHub Pages for this purspose, since I always wanted to try it. There are several ways how to do it. I used quite simple approach. First, I created a git repository that is linked to GitHub. After creating GitHub repository and linking it with my local git repository, I went back to the terminal. At this point, you need to check, that your `_quarto.qmd` file contains following lines:
+
+```markdown
+project:
+  type: website
+  output-dir: docs
+```
