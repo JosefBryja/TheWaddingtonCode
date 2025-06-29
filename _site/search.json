@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "The Waddington Code",
     "section": "",
-    "text": "Why and How to Write a Blog as an Experimental Biologist/Bioinformatician?\n\n\n\n\n\n\nnews\n\n\ntutorial\n\n\n\n\n\n\n\n\n\nJun 27, 2025\n\n\nJosef Bryja\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 27, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 24, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Why and How to Write a Blog as an Experimental Biologist/Bioinformatician?\n\n\n\n\n\n\nnews\n\n\ntutorial\n\n\n\n\n\n\n\n\n\nJun 27, 2025\n\n\nJosef Bryja\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -60,13 +60,13 @@
     "href": "posts/First-post/index.html#quarto",
     "title": "Why and How to Write a Blog as an Experimental Biologist/Bioinformatician?",
     "section": "Quarto",
-    "text": "Quarto\nDo you know RMarkdown? Quarto is build on that and it is basically RMarkdown on steroids. It is very easy to write multi-language scripts or create various types of documents from reports, presentations, websites or books. To be completely honest, I was a bit lazy to learn that because RMarkdown was always sufficient for my purposes. This is the reason why I choose Quarto for my blog. To learn something new. The basic syntax is still basically pure markdown so is is really to easy to just jump in. I mentioned above, Quarto supports many types of output documents and there is also one dedicated to blogs. The Quarto team made it very simple to use this template and they also provide pretty straight forward tutorial. What I like about this is that you can use some predefined themes or you can create your own. I guess that it is better to use some of these themes in the beginning but I would like to try creating my own theme in future."
+    "text": "Quarto\nDo you know RMarkdown? Quarto is build on that and it is basically RMarkdown on steroids. It is very easy to write multi-language scripts or create various types of documents from reports, presentations, websites or books. What is a small difference from standard RMarkdown is that you need to install Quarto as a separate software. But trust me, it is wort it. To be completely honest, I was a bit lazy to learn Quarto, because RMarkdown was always sufficient for my purposes. This is the reason why I choose Quarto for my blog. To learn something new. The basic syntax is still basically pure markdown so is is really to easy to just jump in. I mentioned above, Quarto supports many types of output documents and there is also one dedicated to blogs. The Quarto team made it very simple to use this template and they also provide pretty straight forward tutorial. Basically all you need to do is:\nquarto create project blog theweddingtoncode\nAnd you are good to go. All the rest is on Quarto website (https://quarto.org/docs/websites/website-blog.html)."
   },
   {
     "objectID": "posts/First-post/index.html#github-pages",
     "href": "posts/First-post/index.html#github-pages",
     "title": "Why and How to Write a Blog as an Experimental Biologist/Bioinformatician?",
     "section": "GitHub Pages",
-    "text": "GitHub Pages\nQuarto is amazing for creating these markdown based documents and rendering them. However, when you are writing a blog, you also want to publish it."
+    "text": "GitHub Pages\nQuarto is amazing for creating these markdown based documents and rendering them. However, when you are writing a blog, you also want to publish it. Quarto actually offers so called Quarto Pub which you can use to publish your blog or website. However, I decided that I will use GitHub Pages for this puspose, since I always wanted to try it."
   }
 ]

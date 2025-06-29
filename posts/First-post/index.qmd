@@ -28,9 +28,14 @@ It is very easy to say: "I will just write a blog, you know.". Well, it is not t
 
 ## Quarto
 
-Do you know RMarkdown? Quarto is build on that and it is basically RMarkdown on steroids. It is very easy to write multi-language scripts or create various types of documents from reports, presentations, websites or books. To be completely honest, I was a bit lazy to learn that because RMarkdown was always sufficient for my purposes. This is the reason why I choose Quarto for my blog. To learn something new. The basic syntax is still basically pure markdown so is is really to easy to just jump in. I mentioned above, Quarto supports many types of output documents and there is also one dedicated to blogs. The Quarto team made it very simple to use this template and they also provide pretty straight forward tutorial. What I like about this is that you can use some predefined themes or you can create your own. I guess that it is better to use some of these themes in the beginning but I would like to try creating my own theme in future.
+Do you know RMarkdown? Quarto is build on that and it is basically RMarkdown on steroids. It is very easy to write multi-language scripts or create various types of documents from reports, presentations, websites or books. What is a small difference from standard RMarkdown is that you need to install Quarto as a separate software. But trust me, it is wort it. To be completely honest, I was a bit lazy to learn Quarto, because RMarkdown was always sufficient for my purposes. This is the reason why I choose Quarto for my blog. To learn something new. The basic syntax is still basically pure markdown so is is really to easy to just jump in. I mentioned above, Quarto supports many types of output documents and there is also one dedicated to blogs. The Quarto team made it very simple to use this template and they also provide pretty straight forward tutorial. Basically all you need to do is:
+
+```{bash} 
+quarto create project blog theweddingtoncode
+```
+And you are good to go. All the rest is on [Quarto website](https://quarto.org).
 
 
 ## GitHub Pages
 
-Quarto is amazing for creating these markdown based documents and rendering them. However, when you are writing a blog, you also want to publish it. 
+Quarto is amazing for creating these markdown based documents and rendering them. However, when you are writing a blog, you also want to publish it. Quarto actually offers so called Quarto Pub which you can use to publish your blog or website. However, I decided that I will use GitHub Pages for this puspose, since I always wanted to try it. 
