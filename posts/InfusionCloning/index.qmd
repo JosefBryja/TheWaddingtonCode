@@ -1,0 +1,45 @@
+---
+title: "Basics of In-Fusion Cloning"
+author: "Josef Bryja"
+date: "2025-07-13"
+categories: [Cloning, Molecular biology]
+freeze: false
+draft: true
+---
+
+# Introduction
+
+In-fusion cloning is a simple and fast approach for efficient cloning. It does not require use of ligase but you will have to use In-Fusion mastermix from TaKaRa. That beeing said, I believe that it is now clear that it is commercial approach. But if you don't care and don't mind to spend some money on it, it is very nice and simple approach.
+
+
+# How Does It Work?
+
+I guess you can find this on TaKaRa web page, but since you are already reading this, it makes sense to put it here as well. 
+
+In-Fusion cloning has three basic steps:
+
+1) PCR amplification of an insert sequence 
+2) In-Fusion reaction
+3) Bacteria transformation
+
+Lets break it down.
+
+
+## PCR Amplification
+
+The PCR amplification of the fragment that is wanted to be inserted into vector is same as any other. Denaturation, annealing and elongation. That's it. However there is one small difference -- design of the primers. Unlike in standard PCR, where you want just to amplify some piece of DNA, here you want to add some extra base pairs. These "overhangs" on primers has complementary sequence to the places on the vector where the insert should be placed. Not only it gives nice control of e.g. insert orientation in the final plasmid, but it has one other nice advantage. It is possible to add some short extra sequence that is not present in the vector nor in the insert. This can be extremely useful if you want to add specific restriction site near your insert.
+
+
+## In-Fusion Reaction
+
+This *in vitro* reaction is really simple. The PCR product and linearized vector are mixed together with "In-Fusion enzyme". This enzyme digests DNA from the 3' end. That means it will create a space for these extra "overhangs" to stick onto each other.
+
+
+## Bacteria transformation
+
+After approximately 15 minutes reaction, the mixture can be transformed to competent bacteria using standard heatshock. The trick is, that bacterial reparation mechanisms will combine the linearized vector and the PCR amplified insert.
+
+
+# Conclusion
+
+In-Fusion cloning can be extremely fast and robust approach. It is very intuitive and can be also pretty flexible -- more than one insert can be introduced. There are many applications of this technique. From the cloning of the single vector to larger screens.

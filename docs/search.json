@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "The Waddington Code",
     "section": "",
-    "text": "Why and How to Write a Blog as an Experimental Biologist/Bioinformatician?\n\n\n\n\n\n\nnews\n\n\ntutorial\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nJun 29, 2025\n\n\nJosef Bryja\n\n\n\n\n\n\nNo matching items"
+    "text": "Basics of In-Fusion Cloning\n\n\n\n\n\n\nCloning\n\n\nMolecular biology\n\n\n\n\n\n\n\n\n\nJul 13, 2025\n\n\nJosef Bryja\n\n\n\n\n\n\n\n\n\n\n\n\nWhy and How to Write a Blog as an Experimental Biologist/Bioinformatician?\n\n\n\n\n\n\nnews\n\n\ntutorial\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nJun 29, 2025\n\n\nJosef Bryja\n\n\n\n\n\n\n\n\n\n\n\n\nWhat Does ‘The Waddington Code’ Mean?\n\n\n\n\n\n\nCell Biology\n\n\nHistory\n\n\n\n\n\n\n\n\n\nJun 29, 2025\n\n\nJosef Bryja\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/First-post/index.html",
@@ -54,5 +54,26 @@
     "title": "Why and How to Write a Blog as an Experimental Biologist/Bioinformatician?",
     "section": "GitHub Pages",
     "text": "GitHub Pages\nQuarto is amazing for creating these markdown-based documents and rendering them. However, when you are writing a blog, you also want to publish it. Quarto actually offers so-called Quarto Pub, which you can use to publish your blog or website. However, I decided that I would use GitHub Pages for this purpose since I always wanted to try it. There are several ways how to do it. I used a quite simple approach. First, I created a git repository that is linked to GitHub. After creating a GitHub repository and linking it with my local git repository, I went back to the terminal. At this point, you need to check that your _quarto.yml file contains the following lines:\nproject:\n  type: website\n  output-dir: docs\nOnce this was done, I could run following command and push everything on github. This create docs file and render the website.\nquarto render\nThe last thing I did to publish this post (and the whole blog) was to go to my GitHub repository settings → Pages and set the deployment from a branch like this:\n\nWith this, my blog was ready to start."
+  },
+  {
+    "objectID": "posts/InfusionCloning/index.html",
+    "href": "posts/InfusionCloning/index.html",
+    "title": "Basics of In-Fusion Cloning",
+    "section": "",
+    "text": "In-fusion cloning is a simple and fast approach for efficient cloning. It does not require use of ligase but you will have to use In-Fusion mastermix from TaKaRa. That beeing said, I believe that it is now clear that it is commercial approach. But if you don’t care and don’t mind to spend some money on it, it is very nice and simple approach."
+  },
+  {
+    "objectID": "posts/InfusionCloning/index.html#pcr-amplification",
+    "href": "posts/InfusionCloning/index.html#pcr-amplification",
+    "title": "Basics of In-Fusion Cloning",
+    "section": "PCR Amplification",
+    "text": "PCR Amplification\nThe PCR amplification of the fragment that is wanted to be inserted into vector is same as any other. Denaturation, annealing and elongation. That’s it. However there is one small difference – design of the primers. Unlike in standard PCR, where you want just to amplify some piece of DNA, here you want to add some extra base pairs. These “overhangs” on primers has complementary sequence to the places on the vector where the insert should be placed. Not only it gives nice control of e.g. insert orientation in the final plasmid, but it has one other nice advantage. It is possible to add even more"
+  },
+  {
+    "objectID": "posts/WaddingtonLandscape/index.html",
+    "href": "posts/WaddingtonLandscape/index.html",
+    "title": "What Does ‘The Waddington Code’ Mean?",
+    "section": "",
+    "text": "Why to Choose Such a Stupid Name for a Blog?\nWhen I was thinking about starting a blog, I was looking for a fitting name (naturally). I knew that the blog will be mostly about developmental biology and bioinformatics. Trust me or not, it is not that simple. However, one concept crossed my mind – epigenetic landscape. The idea of cell commitment to its fate. This is basically one of the main pillars of modern biology and biological simulations. It was first introduced by Conrad Hal Waddington in 1950s. Name “The Waddington Code” sounded pretty cool and even intellectual so I went for it. Anyway, since I am using this name, I believe that it is appropriate to write something about C. H. Waddington and how he introduced the world to basics of epigenetics.\n\n\nAbout Mouse Tails\nSorry that I will not start with standard biography. I will not write about the childhood of C. H. Waddington or so. If you are interested in it, you are free to google that. I want to focus on the time he introduced the idea of “valleys” and “forks”.\nWaddington was really strong experimental biologist and he was determined to prove something that does not fit to classical Darwinian evolution - that the organism characteristics gained through lifetime can be inherited. Previously, in the end of 19th century, August Weissman tried the exactly the same thing. However, he was not successful and he actually demonstrated the exact opposite. This original experiment was really simple. He amputated tails in 5 generations of mice while trying to show, that the tail is getting shorter with each generation. And you guessed it correctly – he failed.\n\n\nBasics of Epigenetics\nWaddington decided to use a bit more subtle approach. He knew that drosophilla"
   }
 ]

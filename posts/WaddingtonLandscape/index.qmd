@@ -1,0 +1,25 @@
+---
+title: "What Does 'The Waddington Code' Mean?"
+image: Waddington.png
+author: "Josef Bryja"
+date: "2025-06-29"
+categories: ["Cell Biology", "History"]
+draft: true
+---
+
+# Why to Choose Such a Stupid Name for a Blog?
+
+When I was thinking about starting a blog, I was looking for a fitting name (naturally). I knew that the blog will be mostly about developmental biology and bioinformatics. Trust me or not, it is not that simple. However, one concept crossed my mind -- epigenetic landscape. The idea of cell commitment to its fate. This is basically one of the main pillars of modern biology and biological simulations. It was first introduced by Conrad Hal Waddington in 1950s. Name "The Waddington Code" sounded pretty cool and even intellectual so I went for it. Anyway, since I am using this name, I believe that it is appropriate to write something about C. H. Waddington and how he introduced the world to basics of epigenetics.
+
+
+# About Mouse Tails
+
+Sorry that I will not start with standard biography. I will not write about the childhood of C. H. Waddington or so. If you are interested in it, you are free to google that. I want to focus on the time he introduced the idea of "valleys" and "forks".
+
+Waddington was really strong experimental biologist and he was determined to prove something that does not fit to classical Darwinian evolution - that the organism characteristics gained through lifetime can be inherited. Previously, in the end of 19th century, August Weissman tried the exactly the same thing. However, he was not successful and he actually demonstrated the exact opposite. This original experiment was really simple. He amputated tails in 5 generations of mice while trying to show, that the tail is getting shorter with each generation. And you guessed it correctly -- he failed.
+
+
+# Basics of Epigenetics 
+
+Waddington decided to use a bit more subtle approach. He knew that drosophilla  
+
